@@ -9,8 +9,4 @@ jobs:
        - name: welcome message
          run: echo "My first GitHub action Job- anuhya is a very good girl and VENU is very BAD" 
 
-       - name: list files
-         run: ls
-
-       - name: Read file
-         run: cat README.md
+       
