@@ -10,7 +10,7 @@ jobs:
       run: sudo apt-get install cowsay -y
 
     - name: Execute cowsay CMD
-      run: cowsay -f beefymiracle "Run for cover I am a beefburger yum yum" >> beefburger.txt
+      run: cowsay -f ghostbusters "Run for cover I am a ghost yum yum" >> ghost.txt
 
     - name: sleep for 30 seconds
       run: sleep 30
@@ -22,7 +22,7 @@ jobs:
       run: sleep 10
 
     - name: test file exists
-      run: grep -i "beefburger" beefburger.txt
+      run: grep -i "ghost" ghost.txt
 
   deploy_job_3:
     runs-on: ubuntu-latest
