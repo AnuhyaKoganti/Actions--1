@@ -46,7 +46,7 @@ jobs:
          name: ghost-text-file
 
     - name: Read file
-      run: cat beefburger.txt
+      run: cat ghost.txt
 
     - name: deploy
       run: echo deploying.......
