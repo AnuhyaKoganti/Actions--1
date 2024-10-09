@@ -16,7 +16,7 @@ jobs:
       run: cowsay "Run for cover I am a cow ----RAWR" >> dragon.txt
 
     - name: test file exists
-      run: grep -i "dragon" dragon.txt
+      run: grep -i "cow" dragon.txt
 
     - name: Read file
       run: cat dragon.txt
